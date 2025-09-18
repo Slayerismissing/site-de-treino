@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(9, 77, 9)
+}
+
+
+.estilizar {
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estilizar h1{
+    font-family:'Times New Roman', Times, serif;
+    margin: 10px;
+
+}
+
+.estilizar a{
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+.estilizar a:hover{
+    color: blue;
+}
+
+
+.texto_inicial{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 35px;
+}
+
+.texto_secundario{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
+
+.container{
+    background-color: rgb(21, 189, 21);
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 325px;
+}
+
+.imagem{
+    display: block;
+    border-radius: 25px;
+    width: 300px;
+}
