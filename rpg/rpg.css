@@ -48,8 +48,10 @@ main{
     border-radius: 16px;
 
     background: rgba(8, 16, 24, 0.55);
-    border: 1px solid rgba(74, 111, 165, 0.22);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(74, 111, 165, 0.18);
+    box-shadow:
+    inset 0 0 30px rgba(74, 111, 165, 0.08),
+    0 10px 30px rgba(0,0,0,0.35);
 }
 
 
@@ -64,7 +66,7 @@ main{
 .menu a{
     color: #e6edf3;
     text-decoration: none;
-    padding: 10px 14px;
+    padding: 12px 16px;
     border-radius: 10px;
 
     background: rgba(11, 20, 29, 0.25);
@@ -76,10 +78,56 @@ main{
     border-color: rgba(198, 167, 106, 0.75);
 }
 
+.conteudo{
+    width: min(900px, 92%);
+    margin: 26px auto 40px;
+}
+
+.bloco{
+    margin-bottom: 18px;
+    padding: 18px;
+    border-radius: 16px;
+
+    background: rgba(8, 16, 24, 0.55);
+    border: 1px solid rgba(74, 111, 165, 0.22);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+.bloco h2{
+    margin: 0 0 10px;
+    letter-spacing: 1px;
+}
+
+.bloco ul{
+    margin: 10px 0 0;
+    padding-left: 18px;
+    line-height: 1.7;
+}
+
+.bloco-status{
+    max-width: 700px;
+    margin: 0 auto 24px;
+    text-align: center;
+}
+
+.bloco-status h2{
+    text-align: center;
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+}
 
 
+.bloco-status p{
+    max-width: 520px;
+    margin: 8px auto;
+    line-height: 1.6;
+    text-align: center;
+}
 
-
-
+.status-hiato {
+    color: #c6a76a;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
 
 
