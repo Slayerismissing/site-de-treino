@@ -130,4 +130,22 @@ main{
     letter-spacing: 1px;
 }
 
+.arquivo-topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.arquivo-titulo{
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.tag{
+    padding: 6px 10px;
+    border-radius: 999px;
+}
+
+.arquivo-desc{}
 
