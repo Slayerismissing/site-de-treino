@@ -12,6 +12,11 @@ body {
    );
 }
 
+header{
+    text-align: center;
+    padding: 40px 16px 20px
+}
+
 header h1{
     margin: 0;
     font-weight: 500;
@@ -164,7 +169,37 @@ main{
 
 .arquivo-dados li{
     padding: 8px 0;
-    border-top: 1px solid rgb(198, 167, 106, 0.18);
+    border-bottom: 1px solid rgba(198, 167, 106, 0.18);
 }
+
+.arquivo-acoes{
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 10px;
+
+    text-decoration: none;
+    color: #e6edf3;
+
+    background: rgba(74, 111, 165, 0.18);
+    border: 1px solid rgba(198, 167, 106, 0.35);
+}
+
+.botao:hover{
+    border-color: rgba(198, 167, 106, 0.75);
+    background: rgba(74, 111, 165, 0.28);
+}
+
+.dossie .galeria{
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+}
+
 
 
