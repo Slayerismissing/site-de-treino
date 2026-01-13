@@ -145,7 +145,26 @@ main{
 .tag{
     padding: 6px 10px;
     border-radius: 999px;
+    font-size: 0.85rem;
+
+    color: #0b141d;
+    background: #c6a76a;
 }
 
-.arquivo-desc{}
+.arquivo-desc{
+    margin: 14px 0 12px;
+    line-height: 1.6;
+    opacity: 0.95;
+}
+.arquivo-dados{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.arquivo-dados li{
+    padding: 8px 0;
+    border-top: 1px solid rgb(198, 167, 106, 0.18);
+}
+
 
